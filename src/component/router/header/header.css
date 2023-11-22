@@ -1,0 +1,97 @@
+
+.head-sec{
+    background-color:#000;
+    padding: 8px 5px;
+    position: fixed;
+    width: 100%;
+    z-index: 4;
+    border-bottom: 1px solid lightgray;
+}
+    .container2{
+        width: 95%;
+        margin: auto;
+    }
+        .rows{
+            display: flex;
+            align-items: center;
+            text-align: justify;
+            justify-content: space-between;
+        }
+        .cols1{
+            width: 25%;
+        }
+        .cols2{
+            width: 50%;
+        }
+        .cols3{
+            width: 25%;
+        }
+    
+        .i{
+            display: flex;
+            align-items: center;
+            font-size: 25px;
+            color: #fff;
+            justify-content: space-around;
+        }
+         
+            img{
+                width: 50%;
+            }  
+                    input{
+                    width: 100%;
+                    padding: 10px 0 10px 10px;
+                    margin-right: 30px;
+                    border: none;
+                    outline: none;
+                    color: #fff;
+                    border-radius: 5px;
+                    background-color: #343232;
+             }
+             .box{
+                position: relative;
+             }
+             .search{
+                position: absolute;
+                right: 236px;
+                top: 24px;
+                color: #fff;
+                font-size: 20px !important;
+             }
+    
+.search-container{
+    width: 70%;
+    margin: auto;
+}
+.search-row{
+    display: flex;
+    align-items: center;
+}
+.search-col{
+    width: 33.3%;
+    text-align: center;
+}
+.search-col img{
+    width: 30%;
+}             
+.search-card{
+    width: 48.3%;
+    max-height: 250px;
+    position: absolute;
+    top:54px;
+    z-index: 30;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #343232;
+}
+.empty-box{
+    width: 48.3%;
+    max-height: 150px;
+    position: absolute;
+    top:54px;
+    z-index: 30;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #343232;
+}
